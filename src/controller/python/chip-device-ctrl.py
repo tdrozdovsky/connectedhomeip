@@ -447,6 +447,7 @@ class DeviceMgrCmd(Cmd):
         # TODO(cecille): Get this from the C++ code?
         softap = 1 << 0
         ble = 1 << 1
+        
         onnetwork = 1 << 2
         # Devices may be uncommissioned, or may already be on the network. Need to check both ways.
         # TODO(cecille): implement soft-ap connection.
